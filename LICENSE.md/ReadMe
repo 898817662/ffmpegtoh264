@@ -1,2 +1,14 @@
 # 编辑命令
 gcc -o  ffmpegtoh264  ffmpegtoh264.cpp  -lavformat -lavutil  -lavcodec -lswscale
+
+
+#修改 ：
+    #下面RTSP测试地址 ：
+    char filepath[]="rtsp://10.3.6.56:5555/test.sdp"; 
+    
+   #保存的文件名：       
+   if((fpSave = fopen("test.h264", "ab")) == NULL) //h264保存的文件名  
+   
+   
+   
+   即可生成 H264文件。
