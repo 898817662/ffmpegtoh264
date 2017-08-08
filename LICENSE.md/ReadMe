@@ -1,0 +1,2 @@
+# 编辑命令
+gcc -o  ffmpegtoh264  ffmpegtoh264.cpp  -lavformat -lavutil  -lavcodec -lswscale
